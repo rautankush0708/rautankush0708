@@ -19,28 +19,6 @@ I am specialize in building **interactive dashboards**, optimizing machine learn
 
 ---
 
-## 📈 GitHub Star History
-
-Show your support and track the project's growth!
-
-### Option 1: Star History Chart (Recommended)
-
-Embed a live, interactive star history chart directly in your README using [star-history.com](https://star-history.com).
-
-1.  Go to [star-history.com](https://star-history.com) and query your repository: `github.com/your-username/your-repo`.
-2.  Click the `Embed` button below the chart.
-3.  _Optional:_ Provide a personal access token to avoid GitHub API rate limits (see [star-history.com](https://star-history.com) for instructions on how to generate one).
-4.  Copy the provided code snippet (either the `<iframe />` or the SVG embed code) into this `README.md` file.  Example (replace with your actual username and repo name):
-
-    ```
-
-    ```
-
-### Option 2: Shields.io Star Badge
-
-Display the total number of stars using a badge from [shields.io](https://shields.io/). (Replace with your actual username and repo name)
-
-
 ## 🛠️ Tech Stack & Tools
 
 -   **Languages & Libraries**: Python, SQL, Pandas, NumPy, Scikit-learn, TensorFlow, Keras
