@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #00695c; /* Updated color */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      margin-top: 80px;
+      padding: 20px;
+      max-width: 794px; /* A4 page width in pixels */
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    nav {
+      background-color: #555;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+    }
+
+    .section-title span {
+      margin-right: 5px;
+    }
+
+    .contact-details {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .contact-details div {
+      display: flex;
+      align-items: center;
+    }
+
+    .contact-details img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#expertise">Technical Expertise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#languages">Languages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="mt-5">
+      <div class="section-title">
+        <span>&#128218;</span>
+        <h2>About Me</h2>
+      </div>
+      <p>
+        Proficient in Core Python and machine learning models, with experience in various types of modelling techniques. Strong problem-solving skills, excellent understanding of statistical analysis and experimental design, and experience in working with large datasets. Passionate about leveraging data science and machine learning techniques to drive business growth and generate value for stakeholders.
+      </p>
+    </section>
+
+    <section id="experience">
+      <div class="section-title">
+        <span>&#128187;</span>
+        <h2>Experience</h2>
+      </div>
+      <strong>Microverse Automation Pvt. Ltd.</strong> -<br> Project Engineer <br>(May 2019 - May 2022)<br>
+      <ul>
+        <li>Formulated and pre-processed large datasets by cleaning, transforming, and aggregating data to ensure high data quality.</li>
+        <li>Conducted exploratory data analysis and data visualization using seaborn and matplotlib to generate charts in Jupyter notebooks, allowing for easy communication of findings to stakeholders.</li>
+        <li>Utilized clustering and classification techniques to identify patterns and relationships within data and develop predictive models.</li>
+        <li>Engineered features, performed overfitting analysis, and evaluated model performance to forecast output accurately and effectively.</li>
+        <li>Communicated findings and insights with cross-functional teams to drive data-driven decisions and improve product development processes.</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <div class="section-title">
+        <span>&#128295;</span>
+        <h2>Projects</h2>
+      </div>
+      </div>
+      <div>
+        <strong>Battery fault prediction</strong><br>
+        <strong>Libraries Used: </strong>NumPy, Pandas, SK-learn, Tensor-Flow, Keras, LSTM, Seaborn, Matplotlib<br>
+        <strong>Description: </strong>The Battery Failure Prediction using RNN is a machine learning project that aims to predict the likelihood of a battery failure based on various characteristics such as current, voltage, temperature, and other parameters. The project is designed to be used in hazardous regions where human involvement is limited, and it is essential to prevent battery failure to avoid any potential hazards.<br>
+        <strong>Responsibilities: </strong>Formulated and pre-processed data for battery failure prediction model using RNN for the continuous cell voltage monitoring system, cleaned and labeled data, trained and tested the RNN model, evaluated the model's performance using accuracy, precision, and recall metrics.
+      </div>
+      <div>
+        <strong>Vacuum set point prediction for the Distillation process</strong><br>
+        <strong>Libraries Used: </strong>NumPy, Pandas, sklearn, seaborn, matplotlib<br>
+        <strong>Description: </strong>The Distillation Vacuum Set Point Prediction is a machine learning project that aims to predict the set point for vacuum in the distillation column to maintain the desired purity of the product. The model is trained using historical data on the distillation process and column parameters.<br>
+        <strong>Responsibilities: </strong>Formulated and pre-processed data for vacuum set point prediction model for the distillation process, cleaned and labeled data, trained and evaluated the model, evaluated the model's performance using accuracy, precision, and recall metrics.
+      </div>
+      <div>
+        <strong>Detection & Categorization of cylinder</strong><br>
+        <strong>Libraries Used: </strong>NumPy, Pandas, Tensor Flow, Keras, OpenCV<br>
+        <strong>Description: </strong>The Cylinder Detection and Categorization System is a computer vision project that uses deep learning techniques to recognize and categore LPG cylinders based on their weight. The system is integrated with a conveyor belt and can sort the cylinders into different bins based on their weight category.<br>
+        <strong>Responsibilities: </strong>Determined appropriate computer vision techniques, collected and labeled training and test images, utilized libraries for image pre-processing and model development, trained and evaluated the model using accuracy, precision, and recall metrics.
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-title">
+        <span>&#128640;</span>
+        <h2>Skills</h2>
+      </div>
+      <p>
+        Core Python, Machine Learning, Natural Language Processing, SQL, Regression Analysis, Deep Learning, Computer Vision, EDA, Feature Extraction, Data Analysis, Statistical Data Analysis, PCA, Visualization, Feature Engineering, Pandas, NumPy
+      </p>
+    </section>
+
+    <section id="expertise">
+      <div class="section-title">
+        <span>&#128161;</span>
+        <h2>Technical Expertise</h2>
+      </div>
+      <p>
+        <strong>Programming Languages:</strong> Python<br>
+        <strong>Packages:</strong> NumPy, Pandas, SciKit-learn, NLTK, Matplotlib, TensorFlow, Keras, OpenCV, SciPy, Seaborn, etc.<br>
+        <strong>Tools: </strong>Jupyter Notebook, Anaconda, PyCharm, etc.<br>
+        <strong>Machine Learning Modelling:</strong> Linear and Logistic Regression, K-Means, Support Vector Machine (SVM), Decision Tree, Random Forest, Boosting Algorithms.<br>
+        <strong>Deep Learning Modelling:</strong> Artificial Neural Network (ANN), Convolutional Neural Network (CNN), Recurrent Neural Network (RNN), LSTM, etc.<br>
+        <strong>Artificial Intelligence: </strong>Natural Language Processing (NLP), Computer Vision<br>
+        <strong>Database:</strong> MySQL
+      </p>
+    </section>
+
+    <section id="languages">
+      <div class="section-title">
+        <span>&#128172;</span>
+        <h2>Languages</h2>
+      </div>
+      <p>
+        English (Fluent), Hindi (Fluent), Marathi (Native)
+      </p>
+    </section>
+
+    <section id="contact">
+      <div class="section-title">
+        <span>&#128222;</span>
+        <h2>Contact</h2>
+      </div>
+      <div class="contact-details">
+        <div>
+          <span>&#127468;&#127463;</span>
+          <span>Indian</span>
+        </div>
+        <div>
+          <span>&#128231;</span>
+          <span>rautankush0708@gmail.com</span>
+        </div>
+        <div>
+          <span>&#128222;</span>
+          <span>8055042307</span>
+        </div>
+        <div>
+          <span>&#128197;</span>
+          <span>08/07/1994</span>
+        </div>
+        <div>
+          <span>&#128100;</span>
+          <span>https://www.linkedin.com/in/rautankush070894/</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
