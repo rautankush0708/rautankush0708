@@ -1,24 +1,45 @@
+# Hi there, I'm Ankush Raut! 👋
+
+## 🚀 About Me
+
+I am a **Python Developer** and **Data Scientist** with expertise in **algorithmic trading**, **data visualization**, and **machine learning**. My passion lies in transforming complex data into actionable insights that drive **strategic decision-making** and optimize **trading performance**.
+
+I am specialize in building **interactive dashboards**, optimizing machine learning models, and implementing **advanced data analysis techniques** to uncover trends and insights.
 
 ---
 
-## 💼 Work Experience
+## 🔥 Key Highlights
 
-### **Python Developer | Data Scientist** @ Third Eye Incorporation (June 2023 – Present)
-
--   Designed **Dash-based dashboards** for **real-time analytics** and **decision support**.
--   Conducted advanced **feature engineering** to refine **trading strategies**.
--   Developed and deployed **machine learning models** with a focus on **interpretability (SHAP)**.
--   Optimized **code performance**, leading to a **20% increase in efficiency**.
--   Led **data integrity improvements** through verification techniques.
-
-### **Project Engineer** @ Microverse Automation Pvt. Ltd. (May 2019 – May 2022)
-
--   Built **data pre-processing pipelines** for **large-scale datasets**.
--   Implemented **EDA techniques** for uncovering valuable insights.
--   Developed **high-accuracy predictive models** (90%+ accuracy) for business forecasting.
--   Applied **SQL** for efficient database querying and management.
+-   **Data Visualization**: Developed **interactive dashboards** using **Dash** for real-time insights.
+-   **Algorithmic Trading**: Designed and optimized **trading strategies** using **feature engineering**.
+-   **Machine Learning**: Built high-accuracy models using **SHAP, XGBoost, LightGBM, and Scikit-learn**.
+-   **Performance Optimization**: Improved efficiency by **20%** through **code optimization**.
+-   **Data Analysis**: Conducted in-depth **exploratory data analysis (EDA)** for informed decision-making.
+-   **Data Verification**: Co-developed a **data integrity verification system** to enhance accuracy and streamline workflows.
 
 ---
+
+## 📈 GitHub Star History
+
+Show your support and track the project's growth!
+
+### Option 1: Star History Chart (Recommended)
+
+Embed a live, interactive star history chart directly in your README using [star-history.com](https://star-history.com).
+
+1.  Go to [star-history.com](https://star-history.com) and query your repository: `github.com/your-username/your-repo`.
+2.  Click the `Embed` button below the chart.
+3.  _Optional:_ Provide a personal access token to avoid GitHub API rate limits (see [star-history.com](https://star-history.com) for instructions on how to generate one).
+4.  Copy the provided code snippet (either the `<iframe />` or the SVG embed code) into this `README.md` file.  Example (replace with your actual username and repo name):
+
+    ```
+
+    ```
+
+### Option 2: Shields.io Star Badge
+
+Display the total number of stars using a badge from [shields.io](https://shields.io/). (Replace with your actual username and repo name)
+
 
 ## 🛠️ Tech Stack & Tools
 
@@ -26,22 +47,6 @@
 -   **Machine Learning**: XGBoost, LightGBM, CatBoost, Random Forest, SHAP, Feature Engineering
 -   **Data Visualization**: Dash, Matplotlib, Seaborn, Plotly
 -   **Development & IDEs**: Jupyter Notebook, PyCharm, VS Code, DataSpell, Anaconda
-
----
-
-## 📌 Featured Projects
-
-### **📊 Analytics Engine**
-
--   **Challenge**: Streamline trade data analysis and optimize trading strategies.
--   **Solution**: Built an end-to-end **data pipeline** using **NumPy, Pandas, SK-learn**, and automation tools.
--   **Impact**: Enhanced **portfolio performance** by integrating **trading rules** and **ML models**.
-
-### **🔋 Battery Fault Prediction**
-
--   **Challenge**: Predict **battery failures** in hazardous conditions.
--   **Solution**: Developed a **Recurrent Neural Network (RNN)** using **TensorFlow & Keras**, trained on **1M+ data points**.
--   **Impact**: Achieved **95% accuracy**, preventing failures and reducing maintenance costs.
 
 ---
 
